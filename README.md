@@ -27,3 +27,15 @@ Compatible avec PythonAnywhere, Render, Railway, VPS, Raspberry Pi.
 
 C’est mon premier projet fonctionnel en Python, donc je suis ouvert aux conseils, suggestions et retours.
 N’hésitez pas à ouvrir une issue ou proposer une pull request !
+
+**Limitations actuelles**
+
+Le projet a été développé initialement avec python-telegram-bot v13 (API synchrone).
+
+Avec les versions récentes (≥ v20), la librairie est devenue asynchrone, donc le code actuel ne fonctionne plus tel quel.
+
+Pour le faire tourner :
+
+soit utiliser un environnement en Python ≤ 3.10 avec python-telegram-bot==13.15,
+
+soit adapter le code pour la nouvelle API asynchrone.
