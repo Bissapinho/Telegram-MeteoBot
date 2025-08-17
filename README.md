@@ -2,21 +2,21 @@
 Bot Python qui envoie chaque matin la météo du jour (API Météo-Concept) sur un chat Telegram.
 
 **Installation**  
-git clone https://github.com/<user>/Telegram-MeteoBot.git
-cd Telegram-MeteoBot
-pip install -r requirements.txt
+git clone https://github.com/<user>/Telegram-MeteoBot.git  
+cd Telegram-MeteoBot  
+pip install -r requirements.txt  
 
 **Configuration**  
 Créer un fichier .env à la racine avec vos infos :
 
-API_KEY_METEO=xxx
-TELEGRAM_BOT_TOKEN=xxx
-TELEGRAM_CHAT_ID=xxx
+API_KEY_METEO=xxx  
+TELEGRAM_BOT_TOKEN=xxx  
+TELEGRAM_CHAT_ID=xxx  
 
 .env est ignoré par Git et reste en local.
 
 **Utilisation**  
-python main.py
+python main.py  
 Par défaut : envoi quotidien à 07h00 Europe/Paris.
 
 **Déploiement**  
