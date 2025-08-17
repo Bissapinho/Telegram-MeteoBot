@@ -147,7 +147,7 @@ if __name__ == "__main__":
     scheduler = BlockingScheduler(timezone=timezone("Europe/Paris"))
     # Tous les jours à 08:00 Europe/Paris
     scheduler.add_job(job, "cron", hour=7, minute=0)
-    print("Bot météo démarré. Envoi quotidien à 08:00 Europe/Paris.")
+    print("Bot météo démarré. Envoi quotidien à 07:00 Europe/Paris.")
     scheduler.start()
 
 
